@@ -1,14 +1,6 @@
 "use client";
 import React from "react";
-import {
-  Github,
-  Twitter,
-  Heart,
-  Share2,
-  Lock,
-  Sparkles,
-  PenTool,
-} from "lucide-react";
+import { Github, Heart, Share2, Lock, Sparkles, PenTool } from "lucide-react";
 import { useRouter } from "next/navigation";
 
 function App() {
@@ -24,16 +16,10 @@ function App() {
           </div>
           <div className="flex items-center space-x-4">
             <a
-              href="https://github.com/adnan7398"
+              href="https://github.com/nasirhuss86"
               className="text-gray-600 hover:text-gray-900"
             >
               <Github className="h-5 w-5" />
-            </a>
-            <a
-              href="https://x.com/?lang=en&mx=2"
-              className="text-gray-600 hover:text-gray-900"
-            >
-              <Twitter className="h-5 w-5" />
             </a>
           </div>
         </nav>
